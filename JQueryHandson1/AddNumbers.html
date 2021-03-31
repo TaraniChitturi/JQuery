@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="AddNumbers.js"></script>
+    <title>Add Numbers</title>
+    <style>
+        td{
+            border: 1px double;
+        }
+        table{
+            border: 1px double;
+        }
+        input{
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <span id="msg"></span>
+    <table>
+        <tr>
+            <td>
+                <label>Enter First Number:</label>
+            </td>
+            <td>
+                <input type="text" placeholder="Enter First Number" id="firstNumber" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>Enter Second Number:</label>
+            </td>
+            <td>
+                <input type="text" placeholder="Enter Second Number" id="secondNumber" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>Answer:</label>
+            </td>
+            <td>
+                <output id="answer">Answer</output>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="submit">Submit</label>
+            </td>
+            <td>
+                <button id="add">Add</button>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
